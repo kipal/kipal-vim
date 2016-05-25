@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/kipal/Documents/WORK/mito/peddler-workspace/src/peddler/polling/historicresults'
+let g:netrw_dirhist_2='/home/kipal/Desktop/docker-pilot-project/src/public/index.html'
+let g:netrw_dirhist_3='/home/kipal42/.fontconfig'
+let g:netrw_dirhist_4='/home/kipal42/go-projects/src/proba'
