@@ -1,0 +1,18 @@
+[submodule "vim/plugged/vimproc.vim"]
+	path = vim/plugged/vimproc.vim
+	url = https://git::@github.com/Shougo/vimproc.vim.git
+[submodule "vim/plugged/vim-trailing-whitespace"]
+	path = vim/plugged/vim-trailing-whitespace
+	url = https://git::@github.com/bronson/vim-trailing-whitespace.git
+[submodule "vim/plugged/vim-go"]
+	path = vim/plugged/vim-go
+	url = https://git::@github.com/fatih/vim-go.git
+[submodule "vim/plugged/vim-colors-solarized"]
+	path = vim/plugged/vim-colors-solarized
+	url = https://git::@github.com/altercation/vim-colors-solarized.git
+[submodule "vim/plugged/unite.vim"]
+	path = vim/plugged/unite.vim
+	url = https://git::@github.com/Shougo/unite.vim.git
+[submodule "vim/plugged/neocomplete.vim"]
+	path = vim/plugged/neocomplete.vim
+	url = https://git::@github.com/Shougo/neocomplete.vim.git
