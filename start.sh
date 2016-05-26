@@ -1,5 +1,3 @@
-
-
 #!/bin/bash
 
 set -x
@@ -20,7 +18,10 @@ then
 fi
 
 USERGROUP="whatever"
-USERHOME=/root/vim-workspace
+USERHOME=/home/whatever/
+
+mkdir $USERHOME
+
 # ensure $UID and $GID are set
 if [[ -z $UID ]]; then
 	echo "Please specify environment variable UID (eg: -e UID=\$(id -u))"
@@ -42,6 +43,8 @@ fi
 
 useradd -u "$UID" -r -g "$USERGROUP" -d "$USERHOME" -s /bin/bash "$USERNAME"
 
-su $USERNAME -c "$*"
+vim $*
+
+chown -R $UID:$GID /root/vim-workspace
 
 

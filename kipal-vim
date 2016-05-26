@@ -1,0 +1,10 @@
+#!/bin/bash
+
+docker run -t -i --rm \
+	-v "$(pwd)":/root/vim-workspace \
+	-e UID="$(id -u)" \
+	-e GID="$(id -g)" \
+	-e USERNAME="$(whoami)" \
+	-e DOCKER_MACHINE_NAME="$DOCKER_MACHINE_NAME" \
+	-e LOCAL_PWD="$(pwd)" \
+	kipal/vim "$*"
