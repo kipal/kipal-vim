@@ -19,4 +19,6 @@ RUN curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 WORKDIR "/root/vim-workspace"
 
-ENTRYPOINT [ "vim" ]
+COPY start.sh /root/start.sh
+
+ENTRYPOINT [ "/root/start.sh" ]
